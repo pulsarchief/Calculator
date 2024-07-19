@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 30px;
     margin: 0%;
     height: 100%;
     background-color: rgba(187, 255, 0, 0.295);
@@ -26,14 +26,14 @@ h1 {
 }
 
 #display {
-    background-color: slategray;
-    width: 293px;
+    background-color: rgb(139, 153, 167);
+    min-width: 293px;
     height: 70px;
     border-radius: 20px;
-    padding: 10px;
+    padding: 15px;
     border: solid 3px rgba(0, 0, 0, 0.521);
     text-align: end;
-    font-size: xx-large;
+    font-size: xxx-large;
 }
 
 #input {
@@ -42,6 +42,7 @@ h1 {
     padding: 7px;
     border: solid 3px rgba(0, 0, 0, 0.521);
     background-color: slategray;
+    max-width: fit-content;
 }
 
 .span {
