@@ -6,12 +6,12 @@ body {
     gap: 30px;
     margin: 0%;
     height: 100%;
-    background-color: rgba(187, 255, 0, 0.295);
+    background-color: #bbff004b;
 }
 
 header {
     width: 100%;
-    background-color: rgb(13, 131, 101);
+    
 }
 
 h1 {
@@ -27,17 +27,31 @@ h1 {
 
 #display {
     background-color: rgb(139, 153, 167);
-    min-width: 293px;
-    height: 70px;
+    width: 316px;
+    height: 140px;
     border-radius: 20px;
     padding: 15px;
     border: solid 3px rgba(0, 0, 0, 0.521);
     text-align: end;
     font-size: xxx-large;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+#mini_display,
+#main_display {
+    margin: 0px;
+}
+
+#mini_display {
+    font-size: x-large;
 }
 
 #input {
-    margin: 5px;
+    margin-top: 15px;
     border-radius: 20px;
     padding: 7px;
     border: solid 3px rgba(0, 0, 0, 0.521);
@@ -69,4 +83,3 @@ h1 {
 .clear {
     background-color: palevioletred;
 }
-
