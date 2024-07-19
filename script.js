@@ -116,6 +116,7 @@ function clear() {
     mini_display.textContent = "";
     main_display.textContent = "";
     disableOperatorEqual();
+    enableNumbers();
 }
 
 function operation() {
